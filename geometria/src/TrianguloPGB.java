@@ -23,7 +23,5 @@ public class Triangulo extends FiguraGeometrica {
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+
 }
